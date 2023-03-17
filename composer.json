@@ -1,0 +1,18 @@
+{
+    "name": "user/project_sem",
+    "authors": [
+        {
+            "name": "yelinnoo-007",
+            "email": "yelinnoo222000@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
